@@ -1,0 +1,31 @@
+[user]
+	name = Mad Bernard
+	email = madeline.a.bernard@gmail.com
+
+[core]
+	autocrlf = input
+	safecrlf = false
+	editor = /Applications/Sublime\\ Text\\ 2.app/Contents/SharedSupport/bin/subl -w
+	excludesfile = /Users/Madeline/.gitignore_global
+
+[alias]
+  co = checkout
+  ci = commit
+  st = status
+  br = branch
+  hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
+  type = cat-file -t
+  dump = cat-file -p
+
+[merge]
+  conflictstyle = diff3
+  keepBackup = false
+  keepTemporaries = false
+  tool = p4merge
+
+[mergetool "p4merge"]
+  cmd = p4merge "$BASE" "$LOCAL" "$REMOTE" "$MERGED"
+  trustExitCode = false
+
+[credential]
+	helper = osxkeychain
