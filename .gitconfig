@@ -1,3 +1,12 @@
+# comments in gitconfig start with hash marks
+
+# ah -w on sublime command (Ben says)
+# so the issue is that sublime is a GUI program that was probably already open, you're just opening a new window to edit a commit message
+# so by default if you just run the subl command on a file, it will open it in your currently open editor and immediately exit
+# but git assumes that if your `editor` command exits, then you are done editing the commit message and it should submit
+# meaning that without -w, it just immediately submits the commit with no changes
+# -w makes the command line script wait until the sublime window is closed to exit
+
 [user]
 	name = Mad Bernard
 	email = madeline.a.bernard@gmail.com
@@ -6,7 +15,7 @@
 	autocrlf = input
 	safecrlf = false
 	editor = /Applications/Sublime\\ Text\\ 2.app/Contents/SharedSupport/bin/subl -w
-	excludesfile = /Users/Madeline/.gitignore_global
+	excludesfile = ~/.gitignore_global
 
 [alias]
   co = checkout
