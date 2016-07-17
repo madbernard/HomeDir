@@ -1,4 +1,4 @@
-export PATH=$PATH:/Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/:~/bin:/Applications/Postgres.app/Contents/Versions/9.4/bin
+export PATH=$PATH:/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/:~/bin:/Applications/Postgres.app/Contents/Versions/9.4/bin
 
 alias gs='git status'
 alias ga='git add'
