@@ -49,6 +49,33 @@ https://www.sublimetext.com/3
   "highlight_modified_tabs": true,
 }
 
+`{
+	"always_show_minimap_viewport": true,
+	"auto_complete_commit_on_tab": true,
+	"binary_file_patterns":
+	[
+		".svn/",
+		".git/",
+		".hg/",
+		"CVS/",
+		"node_modules/",
+		"bower_components/"
+	],
+	"detect_indentation": false,
+	"font_size": 13.0,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+    "show_full_path": true,
+    "tab_size": 4,
+    "translate_tabs_to_spaces": true,
+    "trim_automatic_white_space": true,
+    "trim_trailing_white_space_on_save": true,
+    "word_wrap": true
+}
+`
 ### keybindings: user
 [
   // Thanks, http://wesbos.com/5-sublime-text-tweaks-tips/ !
