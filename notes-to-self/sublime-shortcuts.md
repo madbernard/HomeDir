@@ -23,6 +23,8 @@ Control-Command-(up or down arrow):  whole line moves
 
 Control-Command-G:  every match to highlighted thing has a cursor by it
 
+Control-Shift-M:  select everything between these parentheses
+
 
 ---------- Search ----------
 
