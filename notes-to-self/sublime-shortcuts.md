@@ -23,11 +23,12 @@ Control-Command-(up or down arrow):  whole line moves
 
 Control-Command-G:  every match to highlighted thing has a cursor by it
 
-Control-Shift-M:  select everything between these parentheses
+Control-Shift-M:  select everything between these parentheses (recursive, more keycombos = reaching out to further parentheses)
 
+Shift-Command-Space:  select quotes and all that lies between them
 
 ---------- Search ----------
 
 Cmd-Shift-F:  find in all files (and replace if you like)
 
-Option-Shift-F:  find and replace in this file only
+Option-Command-F:  find and replace in this file only
