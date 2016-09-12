@@ -27,8 +27,16 @@ Control-Shift-M:  select everything between these parentheses (recursive, more k
 
 Shift-Command-Space:  select quotes and all that lies between them
 
+
 ---------- Search ----------
 
 Cmd-Shift-F:  find in all files (and replace if you like)
 
 Option-Command-F:  find and replace in this file only
+
+
+---------- File/Directory Navigation ----------
+
+Cmd-P, Enter:  toggle between last two files
+
+Cmd-T, (type in words from proper file path, in order, without spaces):  get list of files in the directory that you can go to
