@@ -33,6 +33,19 @@ alias go='git checkout'
 alias grh='git reset head'
 alias gsl='git stash list'
 
+# A bit more git
+alias gdlast='git diff HEAD^ HEAD'
+alias thisfile='git log -p -M --follow --stat --'
+alias whatsup='git rev-parse --abbrev-ref @{upstream}'
+
+# git to remind myself, or to paste and edit
+# alias thislinehist='git log --pretty=short -u -L 155,155:path/to/filename_155isLineRange.js'
+# alias logOfChangesByFilename='git log -- '*searchThis*' '
+# alias findCommitByWord='git log --oneline | grep PATTERN'
+# alias delete_THIS_WORD_branches='git branch | grep THIS_WORD | xargs git branch -D'
+# alias setUpstreamTo='git branch --set-upstream-to=remote/place'
+# alias overwriteThisFile='git checkout FROM_BRANCH_NAME path/to/file'
+
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
