@@ -1,0 +1,15 @@
+{
+  "security.workspace.trust.untrustedFiles": "open",
+  "editor.wordWrap": "on",
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "editor.tabSize": 2,
+  "editor.rulers": [
+      {
+          "column": 80,
+          "color": "#885c88"
+      },
+      100
+  ]
+}
